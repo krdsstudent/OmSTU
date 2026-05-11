@@ -7,7 +7,7 @@ os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = os.path.join(
     os.path.dirname(PyQt5.__file__), 'Qt5', 'plugins', 'platforms'
 )
 
-
+#print("Hello World")
 class TrackerApp(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
