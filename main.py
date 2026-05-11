@@ -8,6 +8,7 @@ os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = os.path.join(
 )
 
 #print("Hello World")
+print("Hello World")
 class TrackerApp(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
